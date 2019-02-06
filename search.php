@@ -303,7 +303,7 @@
    ';
                 echo $row['6'];
                 
-             echo   '
+              echo   '
                       <hr class="mb-4">  
             <form>
                 <div class="row">
@@ -363,7 +363,6 @@
         </div>
 
     </div>  ';
-            
       }
             
         
