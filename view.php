@@ -105,7 +105,7 @@
             <?php echo  $row["roll"]; ?>
           </td>
            <td style="padding-left:  4em;">
-            <?php echo  $row["curdate"]; ?>
+            <?php echo  $row["curdt"]; ?>
           </td>
          
   <td style="padding-left:  4em;">
@@ -132,7 +132,7 @@
 <div id="id03" class="w3-modal" >
       <div class="w3-modal-content" style = "height : 600px">
 
-        <header class="w3-container w3-teal">
+        <header class="w3-container w3-indigo">
 
 <input type="hidden" name="id" id="userid3">
           <span onclick="document.getElementById('id03').style.display='none'" class="w3-button w3-display-topright">&times;</span>
