@@ -19,7 +19,7 @@
   <div class="col-md-10">
       <a class="btn btn-primary" href="search.php">Search</a></div>
  <div class="col-md-2">
-        <a class="btn btn-primary" href="search.php">Go Home</a></div></div>
+        <a class="btn btn-primary" href="index.php">Go Home</a></div></div>
      </div>
      
 
