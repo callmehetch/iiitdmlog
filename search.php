@@ -121,10 +121,10 @@
     
     
     <div class="container" style="text-align: center">
-      <a  href="Index.php" class="btn btn-primary">Go Home</a>
+      <a  href="index.php" class="btn btn-primary">Go Home</a>
     </div>
         <div class="container" style="text-align: center;padding-top:1%">
-      <a  href="Index.php" class="btn btn-primary">View All</a>
+      <a  href="view.php" class="btn btn-primary">View All</a>
     </div>
     
     
