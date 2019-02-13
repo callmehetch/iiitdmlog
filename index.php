@@ -33,9 +33,7 @@
                     <div class="col-md-4 mb-3">
                         <label for="roll">ROLL NO</label>
                         <input type="text" class="form-control" name="roll" id="roll" placeholder="" value=''>
-                        <div class="invalid-feedback">
-                            Valid Roll No. is required.
-                        </div>
+      
                     </div>
                 </div>
             
@@ -48,9 +46,7 @@
                                 <span class="input-group-text">+91</span>
                             </div>
                             <input type="text" class="form-control" name="phone" id="number" placeholder="">
-                            <div class="invalid-feedback" style="width: 100%;">
-                                Your Moile Numer is required.
-                            </div>
+                   
                         </div>
                     </div>
 
@@ -64,20 +60,33 @@
                             <option>Lotus</option>
                             <option>Jasmine</option>
                         </select>
-                        <div class="invalid-feedback">
-                            Please select a valid country.
-                        </div>
                     </div>
                     <div class="col-md-2 mb-3">
                         <label for="room">ROOM NO</label>
                         <input type="text" class="form-control" name="room" id="room" placeholder="" value="">
-                        <div class="invalid-feedback">
-                            Valid Room No. is required.
-                        </div>
+                  
                     </div>
 
                 </div>
+ <div class="row">
 
+
+                    <div class="col-md-6 mb-3">
+                        <label for="idate">Date:</label>
+                        <input type="date" class="form-control" name="idate" id="idate" placeholder="" value=''>
+                    </div>
+               <div class="col-md-4 mb-3">
+                        <label for="iput">Complaint</label>
+                        <select class="custom-select d-block w-100" name="iput" id="iput">
+                            <option value="">Choose...</option>
+                            <option>Late Entry</option>
+                            <option>Drinking</option>
+                            <option>Ragging</option>
+                            <option>Malpractice in Exam</option>
+                            <option>Unauthorized material in rooms</option>
+                        </select>
+                    </div>
+                </div>
  
 
 
@@ -87,9 +96,12 @@
                  
                         <label for="complaint">Complaint</label>
                         <input type="text" class="form-control" style="height:100px;" name="complaint" id="complaint" placeholder="" value="">
-                        <div class="invalid-feedback">
-                            Valid Room No. is required.
-                        </div>
+                    </div>
+                    <div class="row">
+                    
+                 
+                        <label for="punishment">Punishment</label>
+                        <input type="text" class="form-control" style="height:100px;" name="punishment" id="punishment" placeholder="" value="">
                     </div>
                    <hr class="mb-4">
 

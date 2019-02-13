@@ -109,7 +109,7 @@
           </td>
          
   <td style="padding-left:  4em;">
-            <button class="btn btn-primary" id="<?php echo($row["curdate"]) ?>" onclick="view(this.id,' <?php echo  $row["0"]; ?>','<?php echo  $row["roll"]; ?>',' <?php echo  $row["phone"]; ?>',' <?php echo  $row["hostel"]; ?>', '<?php echo  $row["room"]; ?>',' <?php echo  $row["complaint"]; ?>')"> Check</button>          
+            <button class="btn btn-primary" id="<?php echo($row["curdate"]) ?>" onclick="view(this.id,' <?php echo  $row["0"]; ?>','<?php echo  $row["roll"]; ?>',' <?php echo  $row["phone"]; ?>',' <?php echo  $row["hostel"]; ?>', '<?php echo  $row["room"]; ?>',' <?php echo  $row["complaint"]; ?>','<?php echo  $row["idate"]; ?>','<?php echo  $row["iput"]; ?>','<?php echo  $row["punishment"]; ?>')"> Check</button>          
           </td>
 
 
@@ -130,7 +130,7 @@
     
     
 <div id="id03" class="w3-modal" >
-      <div class="w3-modal-content" style = "height : 600px">
+      <div class="w3-modal-content" style = "height : 700px">
 
         <header class="w3-container w3-indigo">
 
@@ -166,30 +166,48 @@
                             <div class="input-group-prepend">
                                 <span class="input-group-text">+91</span>
                             </div>
-                            <input type="text" class="form-control" name="c" id="c" placeholder="" value='.$row["2"].' readonly>
+                            <input type="text" class="form-control" name="c" id="c" placeholder=""  readonly>
                           
                         </div>
                     </div>
 
                     <div class="col-md-4 mb-3">
                         <label for="roomno">Hostel</label>
-                        <input type="text" class="form-control" name="d" id="d" placeholder="" value='.$row["3"].' readonly>
+                        <input type="text" class="form-control" name="d" id="d" placeholder="" readonly>
                    
                     </div>
                     <div class="col-md-2 mb-3">
                         <label for="roomno">ROOM</label>
-                        <input type="text" class="form-control" name="e" id="e" placeholder="" value='.$row["4"].' readonly>
+                        <input type="text" class="form-control" name="e" id="e" placeholder="" readonly>
                    
                     </div>
 
                 </div>
-     
+          <div class="row">
+
+
+                    <div class="col-md-6 mb-3">
+                        <label for="idate">Date:</label>
+                        <input type="date" class="form-control" name="g" id="g" placeholder="" readonly>
+                        
+                    </div>
+               <div class="col-md-4 mb-3">
+                        <label for="iput">Complaint</label>
+                        <input type="text" class="form-control" name="h" id="h" placeholder=""  readonly>
+                    </div>
+                </div>
                 <div class="row">
                     
                  
                         <label for="roomno">Complaint :</label>
-                        <input type="text" class="form-control" style="height:100px;" name="f" id="f" placeholder="" value='.$row["5"].'>
+                        <input type="text" class="form-control" style="height:100px;" name="f" id="f" placeholder="" readonly>
                     
+                    </div>
+                                   <div class="row">
+                    
+                 
+                        <label for="punishment">Punishment</label>
+                        <input type="text" class="form-control" style="height:100px;" name="i" id="i" placeholder="" readonly>
                     </div>
                    <hr class="mb-4">
 

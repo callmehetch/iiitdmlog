@@ -18,19 +18,20 @@
     
   <?php
     session_start();
-      
       $name=$_POST['name'];
       $roll=$_POST['roll'];
       $phone=$_POST['phone'];
       $hostel=$_POST['hostel'];
       $room=$_POST['room'];
+      $idate=$_POST['idate'];
+      $iput=$_POST['iput'];
       $complaint=$_POST['complaint'];
+      $punishment=$_POST['punishment'];
       $curdate = date("r");
       $curdt =date("d/m/Y");
       $curdat = date("j/n/Y");
       require_once('connect.php');
-      
-      $sql = "INSERT INTO data (name,roll,phone,hostel,room,complaint,curdate,curdt,curdat) VALUES ('$name','$roll','$phone','$hostel','$room','$complaint','$curdate','$curdt','$curdat')";
+      $sql = "INSERT INTO data (name,roll,phone,hostel,room,idate,iput,complaint,punishment,curdate,curdt,curdat) VALUES ('$name','$roll','$phone','$hostel','$room','$idate','$iput','$complaint','$punishment','$curdate','$curdt','$curdat')";
 
           if($conn->query($sql)== TRUE){
               

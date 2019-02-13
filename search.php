@@ -194,13 +194,13 @@
 
                     <div class="col-md-6 mb-3">
                   <label for="name">Name:</label>
-                        <input type="text" class="form-control" name="name" id="name" placeholder="" value='.$row["0"].' readonly>
+                        <input type="text" class="form-control" name="name" id="name" placeholder="" value='.$row["0"].' >
 
                     </div>
 
                     <div class="col-md-4 mb-3">
                         <label for="roll">ROLL NO</label>
-                        <input type="text" class="form-control" name="roll" id="roll" placeholder="" value='.$row["1"].' readonly>
+                        <input type="text" class="form-control" name="roll" id="roll" placeholder="" value='.$row["1"].' >
                      
                     </div>
                 </div>
@@ -213,30 +213,48 @@
                             <div class="input-group-prepend">
                                 <span class="input-group-text">+91</span>
                             </div>
-                            <input type="text" class="form-control" name="phone" id="number" placeholder="" value='.$row["2"].' readonly>
+                            <input type="text" class="form-control" name="phone" id="number" placeholder="" value='.$row["2"].' >
                           
                         </div>
                     </div>
 
                     <div class="col-md-4 mb-3">
                         <label for="roomno">Hostel</label>
-                        <input type="text" class="form-control" name="room" id="roomno" placeholder="" value='.$row["3"].' readonly>
+                        <input type="text" class="form-control" name="room" id="roomno" placeholder="" value='.$row["3"].' >
                    
                     </div>
                     <div class="col-md-2 mb-3">
                         <label for="roomno">ROOM</label>
-                        <input type="text" class="form-control" name="room" id="roomno" placeholder="" value='.$row["4"].' readonly>
+                        <input type="text" class="form-control" name="room" id="roomno" placeholder="" value='.$row["4"].' >
                    
                     </div>
 
                 </div>
-     
+           <div class="row">
+
+
+                    <div class="col-md-6 mb-3">
+                        <label for="idate">Date:</label>
+                        <input type="date" class="form-control" name="idate" id="idate" placeholder="" value='.$row["idate"].'>
+                        
+                    </div>
+               <div class="col-md-4 mb-3">
+                        <label for="iput">Complaint</label>
+                        <input type="text" class="form-control" name="room" id="roomno" placeholder="" value='.$row["iput"].' >
+                    </div>
+                </div>
                 <div class="row">
                     
                  
                         <label for="roomno">Complaint</label>
                         <input type="text" class="form-control" style="height:100px;" name="room" id="roomno" placeholder="" value='.$row["5"].'>
                     
+                    </div>
+                                  <div class="row">
+                    
+                 
+                        <label for="punishment">Punishment</label>
+                        <input type="text" class="form-control" style="height:100px;" name="punishment" id="punishment" placeholder="" value='.$row["punishment"].' >
                     </div>
                    <hr class="mb-4">
 
@@ -311,13 +329,13 @@
 
                     <div class="col-md-6 mb-3">
                   <label for="name">Name:</label>
-                        <input type="text" class="form-control" name="name" id="name" placeholder="" value='.$row["0"].' readonly>
+                        <input type="text" class="form-control" name="name" id="name" placeholder="" value='.$row["0"].' >
 
                     </div>
 
                     <div class="col-md-4 mb-3">
                         <label for="roll">ROLL NO</label>
-                        <input type="text" class="form-control" name="roll" id="roll" placeholder="" value='.$row["1"].' readonly>
+                        <input type="text" class="form-control" name="roll" id="roll" placeholder="" value='.$row["1"].' >
                      
                     </div>
                 </div>
@@ -330,30 +348,48 @@
                             <div class="input-group-prepend">
                                 <span class="input-group-text">+91</span>
                             </div>
-                            <input type="text" class="form-control" name="phone" id="number" placeholder="" value='.$row["2"].' readonly>
+                            <input type="text" class="form-control" name="phone" id="number" placeholder="" value='.$row["2"].' >
                           
                         </div>
                     </div>
 
                     <div class="col-md-4 mb-3">
                         <label for="roomno">Hostel</label>
-                        <input type="text" class="form-control" name="room" id="roomno" placeholder="" value='.$row["3"].' readonly>
+                        <input type="text" class="form-control" name="room" id="roomno" placeholder="" value='.$row["3"].' >
                    
                     </div>
                     <div class="col-md-2 mb-3">
                         <label for="roomno">ROOM</label>
-                        <input type="text" class="form-control" name="room" id="roomno" placeholder="" value='.$row["4"].' readonly>
+                        <input type="text" class="form-control" name="room" id="roomno" placeholder="" value='.$row["4"].' >
                    
                     </div>
 
                 </div>
-     
+      <div class="row">
+
+
+                    <div class="col-md-6 mb-3">
+                        <label for="idate">Date:</label>
+                        <input type="date" class="form-control" name="idate" id="idate" placeholder="" value='.$row["idate"].'>
+                        
+                    </div>
+               <div class="col-md-4 mb-3">
+                        <label for="iput">Complaint</label>
+                        <input type="text" class="form-control" name="room" id="roomno" placeholder="" value='.$row["iput"].' >
+                    </div>
+                </div>
                 <div class="row">
                     
                  
                         <label for="roomno">Complaint</label>
                         <input type="text" class="form-control" style="height:100px;" name="room" id="roomno" placeholder="" value='.$row["5"].'>
                     
+                    </div>
+                            <div class="row">
+                    
+                 
+                        <label for="punishment">Punishment</label>
+                        <input type="text" class="form-control" style="height:100px;" name="punishment" id="punishment" placeholder="" value='.$row["punishment"].' >
                     </div>
                    <hr class="mb-4">
 
