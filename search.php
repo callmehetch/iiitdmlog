@@ -147,7 +147,11 @@
           or complaint like '%$a%'
           or curdate like '%$a%'
           or curdt like '%$a%'
-          or curdat like '%$a%'");
+          or curdat like '%$a%'
+          or idate like '%$a%'
+          or iput like '%$a%'
+          or punishment like '%$a%'
+          ");
 
     ;
 
