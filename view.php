@@ -1,11 +1,8 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <title>IIITDM - Files</title>
@@ -223,7 +220,7 @@
       <script type="text/javascript">
 
 
-  function view(id,a,b,c,d,e,f) {
+  function view(id,a,b,c,d,e,f,g,h,i) {
 document.getElementById('id03').style.display='block'
     document.getElementById("a").value= a;
     document.getElementById("b").value= b;
@@ -231,6 +228,9 @@ document.getElementById('id03').style.display='block'
      document.getElementById("d").value= d;
      document.getElementById("e").value= e;
        document.getElementById("f").value= f;
+       document.getElementById("g").value= g;
+       document.getElementById("h").value= h;
+           document.getElementById("i").value= i;
   }
 
 

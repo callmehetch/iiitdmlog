@@ -94,7 +94,7 @@
                 <div class="row">
                     
                  
-                        <label for="complaint">Complaint</label>
+                        <label for="complaint">Complaint Details</label>
                         <input type="text" class="form-control" style="height:100px;" name="complaint" id="complaint" placeholder="" value="">
                     </div>
                     <div class="row">
